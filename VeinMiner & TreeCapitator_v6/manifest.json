@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"CTabdul15"
+		]
+	},
+	"header": {
+		"name": "VeinMiner & TreeCapitator v6",
+		"description": "§7VeinMiner §f& §aTreeCapitator§f by CTabdul15\n§cdon't forget to enchant the Tools before you use it.",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "9a382f60-2db3-4dff-8167-899886cf48c3",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "fc89bc9d-3ebf-49ad-a9b7-69f2a5720291",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "0c33da29-0c54-421d-a9c2-a06f011c39d8",
+			"entry": "scripts/index.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.6.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
